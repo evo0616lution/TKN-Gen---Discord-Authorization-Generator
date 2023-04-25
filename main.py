@@ -1,7 +1,7 @@
 from colorama import Fore as color 
 import os, requests, json, asyncio, random, string
 #########################################
-print(color.YELLOW + "TKN Gen - Discord Authorization Generator")
+print(color.YELLOW + "TKN Gen - Discord Authorization Generator | By github.com/pacity")
 quantity = input(color.RESET + "How many tokens do you want to generate? ")
 q = str(quantity)
 while int(quantity) >= 0:
